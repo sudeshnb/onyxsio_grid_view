@@ -1,7 +1,8 @@
 name: onyxsio_grid_view
 description: A new Flutter package with a customized TextButton.
-version: 0.0.1
-homepage:
+version: 1.0.0
+# author: Sudesh Bandara
+homepage: https://github.com/sudeshnb/onyxsio_grid_view.git
 
 environment:
   sdk: ">=2.17.6 <3.0.0"
