@@ -12,11 +12,23 @@ and the Flutter guide for
 -->
 
 # Onyxsio Grid View
+<<<<<<< HEAD
 
+Provides a Flutter grids layout.
+=======
 Provides a Flutter grids layout.
 
 ## Getting started
 
+In the `pubspec.yaml` of your flutter project, add the following dependency:
+>>>>>>> 8de89f2a5d5b13ec6e9ea31412a4ae25e080352b
+
+```yaml
+dependencies:
+  onyxsio_grid_view: <latest_version>
+```
+
+<<<<<<< HEAD
 In the `pubspec.yaml` of your flutter project, add the following dependency:
 
 ```yaml
@@ -24,6 +36,8 @@ dependencies:
   onyxsio_grid_view: <latest_version>
 ```
 
+=======
+>>>>>>> 8de89f2a5d5b13ec6e9ea31412a4ae25e080352b
 In your library add the following import:
 
 ```dart
@@ -59,7 +73,6 @@ OnyxsioGridView.countBuilder(
         ),
       )
 ```
-
 ## Additional information
 
 I'm working on my packages on my free-time, but I don't have as much time as I would. If this package or any other package I created is helping you, please consider to sponsor me so that I can take time to read the issues, fix bugs, merge pull requests and add features to these packages.
@@ -74,6 +87,7 @@ If you find a bug or want a feature, but don't know how to fix/implement it, ple
 If you fixed a bug or implemented a feature, please send a [pull request][pr].
 
 <!-- Links -->
+<<<<<<< HEAD
 
 [issue]: https://github.com/sudeshnb/onyxsio_grid_view/issues
 [pr]: https://github.com/sudeshnb/onyxsio_grid_view/pulls
@@ -81,5 +95,12 @@ If you fixed a bug or implemented a feature, please send a [pull request][pr].
 [pub]: https://pub.dartlang.org/packages/onyxsio_grid_view
 [staired_preview]: https://user-images.githubusercontent.com/33403844/214500635-7860d799-67c7-4f98-b031-725bc0e1922c.png
 
+=======
+[issue]: https://github.com/sudeshnb/onyxsio_grid_view/issues
+[pr]:https://github.com/sudeshnb/onyxsio_grid_view/pulls
+[flutter_documentation]: https://docs.flutter.dev/
+[pub]: https://pub.dartlang.org/packages/onyxsio_grid_view
+[staired_preview]: https://user-images.githubusercontent.com/33403844/214500635-7860d799-67c7-4f98-b031-725bc0e1922c.png
+>>>>>>> 8de89f2a5d5b13ec6e9ea31412a4ae25e080352b
 <!-- [buy_me_a_coffee]: https://www.buymeacoffee.com/sudeshnb -->
 <!-- [buy_me_a_coffee_badge]: https://user-images.githubusercontent.com/33403844/214502169-982df8a4-a758-44e7-8c0f-cc85fd29547e.svg -->

@@ -1,5 +1,5 @@
 name: onyxsio_grid_view
-description: A new Flutter package with a customized TextButton.
+description: Provides a Flutter grid layout.
 version: 1.0.0
 # author: Sudesh Bandara
 homepage: https://github.com/sudeshnb/onyxsio_grid_view.git
