@@ -1,20 +1,25 @@
-# 1.0.1
+# 1.0.3
 
-- Fixed missing exclamation mark in `sayHi()` method.
+- **Breaking change:** Added an example for the Package.
+- Fixed `example/main.dart`.
+- Fixed `doc/opening.md`.
 
-# 1.0.0
+# 1.0.2
 
-- **Breaking change:** Removed deprecated `sayHello()` method.
+<!-- - **Breaking change:** Removed deprecated `sayHello()` method. -->
+
+- Remove The unnecessary package because all of the used elements are also provided by the other package.
+- Fixed lib/src/onyxsio.dart:3:8.
 - Initial stable release.
 
-## Upgrading from 0.1.x
+<!-- ## Upgrading from 0.1.x -->
 
-Change all calls to `sayHello()` to instead be to `sayHi()`.
+<!-- Change all calls to `sayHello()` to instead be to `sayHi()`. -->
 
-# 0.1.1
+# 1.0.1
 
-- Deprecated the `sayHello()` method; use `sayHi()` instead.
+<!-- - Deprecated the `sayHello()` method; use `sayHi()` instead. -->
 
-# 0.1.0
+# 1.0.0
 
 - Initial development release.

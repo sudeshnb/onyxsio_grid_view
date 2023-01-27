@@ -35,6 +35,7 @@ For help getting started with Flutter, view the online [documentation][flutter_d
 ## Features
 
 This layout facilitates the browsing of uncropped peer content. Container heights are sized based on the widget size.
+
 ![Staired Grid Layout][staired_preview]
 
 ## Usage
@@ -42,9 +43,8 @@ This layout facilitates the browsing of uncropped peer content. Container height
 Below you'll find the code to create this grid layout:
 
 ```dart
-OnyxsioGridView.countBuilder(
+OnyxsioGridView.builder(
         padding: EdgeInsets.all(8),
-        padding: const EdgeInsets.only(right: 12),
         itemCount: 20,
         physics: const BouncingScrollPhysics(),
         staggeredTileBuilder: (index) => const StaggeredTile.fit(2),

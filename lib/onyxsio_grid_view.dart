@@ -5,6 +5,7 @@ library onyxsio_grid_view;
 import 'package:flutter/widgets.dart';
 import 'src/onyxsio.dart';
 import 'src/onyxsio_staggered_grid.dart';
+export 'src/staggered_tile.dart';
 
 class OnyxsioGridView extends BoxScrollView {
   OnyxsioGridView({
@@ -49,7 +50,7 @@ class OnyxsioGridView extends BoxScrollView {
     EdgeInsetsGeometry? padding,
     required int crossAxisCount,
     required OnyxsioIndexedWidgetBuilder itemBuilder,
-    required IndexedStaggeredTileBuilder staggeredTileBuilder,
+    required OnyxsioIndexedStaggeredTileBuilder staggeredTileBuilder,
     int? itemCount,
     double mainAxisSpacing = 0.0,
     double crossAxisSpacing = 0.0,

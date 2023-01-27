@@ -1,6 +1,5 @@
 import 'dart:collection';
 import 'dart:math' as math;
-
 import 'package:flutter/foundation.dart';
 import 'package:flutter/rendering.dart';
 
@@ -8,7 +7,8 @@ import 'staggered_tile.dart';
 import 'onyxsio_variable_size_box_adaptor.dart';
 
 /// Signature for a function that creates [OnyxsioStaggeredTile] for a given index.
-typedef IndexedStaggeredTileBuilder = OnyxsioStaggeredTile? Function(int index);
+typedef OnyxsioIndexedStaggeredTileBuilder = OnyxsioStaggeredTile? Function(
+    int index);
 
 /// Specifies how a staggered grid is configured.
 @immutable
@@ -45,7 +45,7 @@ class OnyxsioStaggeredGridConfiguration {
 
   /// Called to get the tile at the specified index for the
 
-  final IndexedStaggeredTileBuilder staggeredTileBuilder;
+  final OnyxsioIndexedStaggeredTileBuilder staggeredTileBuilder;
 
   /// The total number of tiles this delegate can provide.
 
@@ -541,7 +541,7 @@ abstract class OnyxsioStaggeredGridDelegate {
   /// The number of logical pixels between each child along the cross axis.
   final double crossAxisSpacing;
 
-  final IndexedStaggeredTileBuilder staggeredTileBuilder;
+  final OnyxsioIndexedStaggeredTileBuilder staggeredTileBuilder;
 
   final int? staggeredTileCount;
 
@@ -567,7 +567,7 @@ class SliverStaggeredGridDelegateWithFixedCrossAxisCount
     extends OnyxsioStaggeredGridDelegate {
   const SliverStaggeredGridDelegateWithFixedCrossAxisCount({
     required this.crossAxisCount,
-    required IndexedStaggeredTileBuilder staggeredTileBuilder,
+    required OnyxsioIndexedStaggeredTileBuilder staggeredTileBuilder,
     double mainAxisSpacing = 0,
     double crossAxisSpacing = 0,
     int? staggeredTileCount,
@@ -619,7 +619,7 @@ class SliverStaggeredGridDelegateWithMaxCrossAxisExtent
     extends OnyxsioStaggeredGridDelegate {
   const SliverStaggeredGridDelegateWithMaxCrossAxisExtent({
     required this.maxCrossAxisExtent,
-    required IndexedStaggeredTileBuilder staggeredTileBuilder,
+    required OnyxsioIndexedStaggeredTileBuilder staggeredTileBuilder,
     double mainAxisSpacing = 0,
     double crossAxisSpacing = 0,
     int? staggeredTileCount,

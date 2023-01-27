@@ -1,6 +1,6 @@
 import 'dart:collection';
 
-import 'package:flutter/foundation.dart';
+// import 'package:flutter/foundation.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
 import 'onyxsio_staggered_grid.dart';
@@ -361,10 +361,10 @@ class OnyxsioStaggeredGrid extends OnyxsioVariableSizeBoxAdaptorWidget {
   //         ),
   //       );
 
-  OnyxsioStaggeredGrid.countBuilder({
+  OnyxsioStaggeredGrid.builder({
     Key? key,
     required int crossAxisCount,
-    required IndexedStaggeredTileBuilder staggeredTileBuilder,
+    required OnyxsioIndexedStaggeredTileBuilder staggeredTileBuilder,
     required IndexedWidgetBuilder itemBuilder,
     required int itemCount,
     double mainAxisSpacing = 0,
