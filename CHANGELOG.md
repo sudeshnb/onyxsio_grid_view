@@ -1,10 +1,10 @@
-# 1.0.3
+# 1.0.4
 
 - **Breaking change:** Added an example for the Package.
 - Fixed `example/main.dart`.
 - Fixed `doc/opening.md`.
 
-# 1.0.2
+# 1.0.3
 
 <!-- - **Breaking change:** Removed deprecated `sayHello()` method. -->
 
@@ -16,7 +16,7 @@
 
 <!-- Change all calls to `sayHello()` to instead be to `sayHi()`. -->
 
-# 1.0.1
+<!-- # 1.0.1 -->
 
 <!-- - Deprecated the `sayHello()` method; use `sayHi()` instead. -->
 

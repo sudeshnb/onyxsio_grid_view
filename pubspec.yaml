@@ -1,6 +1,6 @@
 name: onyxsio_grid_view
-description: Provides a Flutter grid layout.
-version: 1.0.3
+description: Provides a Flutter grid layout. That supports multiple columns with rows of varying sizes.
+version: 1.0.4
 # author: Sudesh Bandara
 homepage: https://github.com/sudeshnb/onyxsio_grid_view.git
 documentation: https://onyxsio.com/
